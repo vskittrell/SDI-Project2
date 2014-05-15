@@ -69,18 +69,37 @@ var q = false
 var r = false
 var loot = true
 var myVictory = p = true , q = false , r = false
+
+
 while (p = true , q = false , r = false) {
-    console.log("Did we slay the dragon, " + myVictory);
+    console.log("Did we slay the dragon, " + myVictory + ".");
     (p && q) || (q && r)= myVictory;
 };
-    var loot = confirm("Was there any loot?");
+
+var loot = confirm("Was there any loot?");
     if (loot === true) {
+        myLv = 200 + myLv;
         console.log("Let's kill it again.");
-    }{
+    }else{
         console.log("Let's move on.");
 }{
     if (p = true , q = false , r = false) {
-    console.log("Did we slay the dragon, " + myVictory);
-    myVictory = p && (q || r);
+    console.log("Did we slay the dragon, " + myVictory + ".");
+    myVictory = p || (q && r);
+        return pocket;
     }
 };
+
+ var pocket = function(myLv) {
+     var swords = 100,
+     greatswords;
+if (myLv > swords) {
+    console.log("I can get a new sword.");
+    return 100;
+}
+     greatswords = Math.floor(myLv / swords);
+     return greatswords;
+ };
+
+var gotswords = pocket(200)
+console.log("You just bought " + gotswords + " amount of swords.");
