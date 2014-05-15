@@ -86,20 +86,45 @@ var loot = confirm("Was there any loot?");
     if (p = true , q = false , r = false) {
     console.log("Did we slay the dragon, " + myVictory + ".");
     myVictory = p || (q && r);
-        return pocket;
+        return loot;
     }
 };
 
- var pocket = function(myLv) {
-     var swords = 100,
-     greatswords;
-if (myLv > swords) {
-    console.log("I can get a new sword.");
-    return 100;
-}
-     greatswords = Math.floor(myLv / swords);
-     return greatswords;
- };
+//Number
 
-var gotswords = pocket(200)
-console.log("You just bought " + gotswords + " amount of swords.");
+
+var p=400
+var s=100
+
+if (p === true) {
+    console.log("I have plenty for swords.")
+for (var p = 400; p >5 ; p++ ) {
+    for (var p = 100; 400 > s = p; p++) {
+console.log("I can get " + swords + " strong swords.");
+        
+    };
+    
+};
+    
+};
+
+var myGear = "equipment"
+var dragons = 5
+var alone = true
+
+console.log("I have new " + myGear + " so I can take on " + dragons + " creatures and this time I'm not " + alone + ".");
+
+if (alone === true) {
+    console.log("Make sure you summon your friends for a good fight.");
+}else{
+
+    console.log("You can handle this with no problem.");
+};
+
+
+
+
+    
+
+
+
