@@ -39,21 +39,6 @@ var theLv = prompt("Enter your character level: ");
 myLv = 200
 console.log("You have " + myLv + " gold coins to start off with!");
 
-(myLv >= 10);
-myLv = 500
-console.log("You have " + myLv + " gold coins to start off with!");
-
-(myLv >= 15);
-myLv = 1000
-console.log("You have " + myLv + " gold coins to start off with!");
-
-(myLv = 20);
-myLv = 2000
-console.log("You have " + myLv + " gold coins to start off with!");
-
-
-
-
 //Main Code
 
 //Procedure Path
@@ -82,10 +67,20 @@ alert("A dragon is attacking a village!");
 var p = true
 var q = false
 var r = false
+var loot = true
+var myVictory = p = true , q = false , r = false
 while (p = true , q = false , r = false) {
     console.log("Did we slay the dragon, " + myVictory);
     (p && q) || (q && r)= myVictory;
+};
+    var loot = confirm("Was there any loot?");
+    if (loot === true) {
+        console.log("Let's kill it again.");
+    }{
+        console.log("Let's move on.");
 }{
+    if (p = true , q = false , r = false) {
     console.log("Did we slay the dragon, " + myVictory);
-    myVictory =p && (q || r);
+    myVictory = p && (q || r);
+    }
 };
