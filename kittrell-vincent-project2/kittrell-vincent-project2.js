@@ -7,8 +7,8 @@
 
 //Global Variables
 var myQuestion = "adventure";
-var human = true;
-var myAge = 100;
+var myRace = true;
+var myLv = 20;
 
 
 
@@ -20,6 +20,37 @@ var myProcedure = function(MyName) {
 };
 
 var theName = prompt("Enter a name: ");
+
+myRace = confirm("Are you human?");
+    if (myRace === true) {
+    console.log("You are human.");
+}else{
+   console.log("You are not human. You are very special.");
+};
+
+var myLv = function(MyLv) {
+    
+    console.log("Your character level is " + MyLv);
+    
+};
+
+var theLv = prompt("Enter your character level: ");
+(myLv <= 5);
+myLv = 200
+console.log("You have " + myLv + " gold coins to start off with!");
+
+(myLv >= 10);
+myLv = 500
+console.log("You have " + myLv + " gold coins to start off with!");
+
+(myLv >= 15);
+myLv = 1000
+console.log("You have " + myLv + " gold coins to start off with!");
+
+(myLv = 20);
+myLv = 2000
+console.log("You have " + myLv + " gold coins to start off with!");
+
 
 
 
@@ -39,3 +70,26 @@ if (myQuestion === true){
     console.log("My 25 points of diplomacy says you will, but first I have some questions.");
     
 }
+
+//Boolean Path
+
+//Local Variables
+var p = true
+var q = false
+var r = false
+
+alert("There are mulitple adventures to take on!");
+
+//functions
+    var theQuest = confirm("Do you want to pick an adventure?");
+    while (theQuest === false) {};
+        console.log("Lets look your gear then.");
+if (theQuest === true) {
+    console.log("Let's pick one then.");
+    
+
+
+var theQuest = prompt("Choose either p, q, or r: ")
+
+    
+    console.log("Your quest is to " + Quest);
