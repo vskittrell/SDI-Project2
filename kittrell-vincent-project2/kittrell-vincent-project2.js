@@ -74,22 +74,18 @@ if (myQuestion === true){
 //Boolean Path
 
 //Local Variables
+
+
+alert("A dragon is attacking a village!");
+
+//functions
 var p = true
 var q = false
 var r = false
-
-alert("There are mulitple adventures to take on!");
-
-//functions
-    var theQuest = confirm("Do you want to pick an adventure?");
-    while (theQuest === false) {};
-        console.log("Lets look your gear then.");
-if (theQuest === true) {
-    console.log("Let's pick one then.");
-    
-
-
-var theQuest = prompt("Choose either p, q, or r: ")
-
-    
-    console.log("Your quest is to " + Quest);
+while (p = true , q = false , r = false) {
+    console.log("Did we slay the dragon, " + myVictory);
+    (p && q) || (q && r)= myVictory;
+}{
+    console.log("Did we slay the dragon, " + myVictory);
+    myVictory =p && (q || r);
+};
